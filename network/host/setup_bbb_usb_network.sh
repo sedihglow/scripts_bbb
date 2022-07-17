@@ -7,7 +7,7 @@ fi
 
 while getopts i:u: args
 do
-	case "${args}" om
+	case "${args}" in
 		i) host_interface=${OPTARG};;
 		u) usb_interface=${OPTARG};;
 	esac
